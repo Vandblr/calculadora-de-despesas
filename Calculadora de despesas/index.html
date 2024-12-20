@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Despesas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Despesas</h1>
+        <input type="text" id="descricao" placeholder="Descrição">
+        <input type="number" id="valor" placeholder="Valor (R$)">
+        <button onclick="adicionarDespesa()">Adicionar</button>
+        <h3>Lista de Despesas:</h3>
+        <ul id="listaDespesas"></ul>
+        <h3>Total: R$ <span id="total">0.00</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
